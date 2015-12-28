@@ -1,0 +1,6 @@
+#!/bin/sh -e
+# -*- coding: utf-8; mode: sh -*-
+CONTAINER=lynxtp/ubuntu
+VERSION=15.10
+docker run --rm -i -t -v $PWD:/mnt/workdir -w /mnt/workdir $CONTAINER:$VERSION "$@"
+exit 0
