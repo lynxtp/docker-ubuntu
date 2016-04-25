@@ -1,5 +1,5 @@
 CONTAINER = lynxtp/ubuntu
-VERSION = 15.10
+VERSION = 16.04
 
 DOCKER ?= docker
 
