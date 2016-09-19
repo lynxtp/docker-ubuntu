@@ -6,3 +6,4 @@ Create a script called `bash` that looks like:
     docker run --rm -i -t lynxtp/ubuntu:15.10 bash "$@"
 
 make it executable, and then run it.
+
